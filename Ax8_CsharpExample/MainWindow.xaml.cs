@@ -33,7 +33,7 @@ namespace Ax8_CsharpExample
         DispatcherTimer timer;
         bool is_initCam, is_initTimer;
 
-        static string CamIP = "192.168.0.168";
+        static string CamIP = "192.168.0.168";  // Change to your camera IP
 
         string rtspUrl = "rtsp://" + CamIP + "/avc";
         string fusionMode1 = "http://" + CamIP + "/prod/res/image/sysimg/fusion/fusionData/fusionMode?set=1";
