@@ -1,0 +1,16 @@
+﻿<Window x:Class="Ax8_CsharpExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ax8_CsharpExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Image Name="Cam_1" Margin="20" Width="400" Height="380" HorizontalAlignment="Left" />
+        <Button Content="Snap" HorizontalAlignment="Left" Margin="555,127,0,0" VerticalAlignment="Top" Width="104" Height="62" Click="Button_Click"/>
+        <Button Content="MSX" HorizontalAlignment="Left" Margin="555,243,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click_1"/>
+        <Button Content="IR" HorizontalAlignment="Left" Margin="555,282,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click_2"/>
+        <Button Content="Visual" HorizontalAlignment="Left" Margin="555,320,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click_3"/>
+    </Grid>
+</Window>
